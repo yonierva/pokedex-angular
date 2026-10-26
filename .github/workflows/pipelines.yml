@@ -17,6 +17,8 @@ jobs:
       # pipeline actions
       - run: npm install
       - run: npm run test:cov
-      - run: ./node_modules/.bin/codecov
-        env:
-          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v4
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          files: ./coverage/pokedex-angular/lcov.info
