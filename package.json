@@ -6,7 +6,7 @@
     "start": "npx serve -s",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test --code-coverage --browsers=Chrome",
+    "test": "ng test --code-coverage --browsers=ChromeHeadlessNoSandbox --watch=false",
     "test:cov": "ng test --code-coverage --no-watch --no-progress --browsers=ChromeHeadlessCI",
     "lint": "ng lint",
     "predeploy": "ng build --configuration production --base-href=/pokedex-angular/",
