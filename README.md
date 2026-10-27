@@ -55,3 +55,8 @@ Microsoft validará tu identidad mediante alguno de estos métodos:
 2. En la barra de búsqueda superior, escribe y selecciona **Suscripciones** (*Subscriptions*).
 3. Comprueba que aparezca la suscripción con el nombre **Azure for Students** y en estado **Habilitada** (*Enabled*).
 4. En el panel principal del Portal podrás consultar el saldo restante de tus $100 USD de crédito y los días de vigencia de la suscripción.
+
+## 5. Enlaces del Proyecto
+
+- **Sitio Web Desplegado (Azure App Service):** [https:/app-pokedex-web-prod.azurewebsites.net](https://app-pokedex-web-prod-dzcqfyeyfag5dzcy.northcentralus-01.azurewebsites.net/) 
+- **Repositorio de Código (GitHub):** [https:/github.com/tu-usuario/pokedex-angular](https://github.com/yonierva/pokedex-angular) 
