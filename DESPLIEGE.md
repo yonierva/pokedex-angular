@@ -53,7 +53,7 @@ o equivalente).
 
 -  **Publicar:** Selecciona **Código** (*Code*).
 
--  **Pila de runtime:** Selecciona **Node 18 LTS** (o versión
+-  **Pila de runtime:** Selecciona **Node 22 LTS** (o versión
 
 acorde a tu Angular).
 
